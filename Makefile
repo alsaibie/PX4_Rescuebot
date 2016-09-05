@@ -149,6 +149,9 @@ px4fmu-v2_test:
 px4fmu-v4_default:
 	$(call cmake-build,nuttx_px4fmu-v4_default)
 
+px4fmu-v4_rescuebot:
+	$(call cmake-build,nuttx_px4fmu-v4_rescuebot)
+	
 px4-stm32f4discovery_default:
 	$(call cmake-build,nuttx_px4-stm32f4discovery_default)
 

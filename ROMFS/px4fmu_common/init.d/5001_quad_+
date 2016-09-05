@@ -12,3 +12,8 @@ sh /etc/init.d/rc.mc_defaults
 set MIXER quad_+
 
 set PWM_OUT 1234
+
+#no safety switch needed
+#param set CBRK_IO_SAFETY    22027
+#no Airspeed Sensor Needed
+param set CBRK_AIRSPD_CHK 	162128
